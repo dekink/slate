@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  slate:
+    image: slate
+    ports:
+      - 4567:4567
+    volumes:
+      - ./source:/usr/src/app/source
